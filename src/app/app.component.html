@@ -1,0 +1,40 @@
+<div id="div1">
+    Hello angular! this is {{title}}!
+</div>
+
+<!-- <app-child1 (childEvent) = "(pArray = $event)"></app-child1> -->
+<app-child1 (childEvent) = "eventEmit($event)"></app-child1>
+
+<br>
+
+<app-child3 [parentArray] = "pArray"></app-child3>
+<hr style="border: 2px solid red;">
+
+<app-child-lifecycle-hooks [parentNumber] = "number" ></app-child-lifecycle-hooks>
+
+<div id="div2">
+    <button id="inc" (click) = "increment()">Increment</button>
+    <button id="dec" (click) = "decrement()">Decrement</button>
+</div>
+
+<br>
+<hr style="border: 2px solid red;">
+
+<div id="div3" appCustomDirective>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, esse! <b>By CUSTOM directive!</b>
+</div>
+
+<div id="div4" appRenderer>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, enim.
+    <b>WITH RENDERER & HOSTLISTENER decorator!</b>
+</div>
+
+<hr style="border: 2px solid red;">
+
+<div [ngSwitch] = "value">
+    <p *ngSwitchCase = "2">value is <b>2</b></p>
+    <p *ngSwitchCase = "5">value is <b>5</b></p>
+    <p *ngSwitchCase = "10">value is <b>10</b></p>
+    <p *ngSwitchDefault>value is <b>default!</b></p>
+</div>
+

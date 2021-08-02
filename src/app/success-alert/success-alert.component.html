@@ -1,0 +1,32 @@
+<div>You are so successful!</div>
+<br>
+<input placeholder="keyup.enter event"  type="text" (keyup.enter) = "showText($event)" />
+<p>{{ para }}</p>
+<button (mouseover) = "showEvent($event)" >Mouse event!</button>
+<br><br>
+
+<input type="text" [(ngModel)] = "text">
+<!-- <p>{{text}}</p> -->
+<br>
+<button (click) = 'showInnerText()' >Show Text</button>
+<!-- <p>{{ innerText }}</p> -->
+<p *ngIf = "innerText">hello! {{text}}</p>
+<hr>
+<h6 style="margin-left: 600px;">Assignment</h6>
+<input placeholder="username" type="text" [(ngModel)] = "name">
+<p>{{name}}</p>
+<button [disabled] = "name === ''" (click) = "name = ''">Reset username</button>
+<br>
+<hr>
+<table border="2">
+    <tr>
+        <td>name</td>
+        <td>age</td>
+        
+    <tr *ngFor = "let name of array">
+        <td>{{name.name}}</td>
+        <td>{{name.favNo}}</td>
+    </tr>
+</table>
+<br>
+<hr>

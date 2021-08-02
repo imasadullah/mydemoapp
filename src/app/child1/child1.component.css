@@ -1,0 +1,16 @@
+div {
+    text-align: center;
+}
+input {
+    margin-left: 5px;
+}
+#input2 {
+    margin-left: 2px;
+}
+button {
+    margin-left: 5px;
+    background-color: rgb(44, 44, 196);
+    color: white;
+    width: 80px;
+    border: 1px solid darkblue;
+}

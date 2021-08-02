@@ -1,0 +1,54 @@
+#div1 {
+    padding: 15px;;
+    background-color:black;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+h1 {
+    color:lightskyblue;
+    margin-left: 30%;
+}
+h2 {
+    color: purple;
+
+}
+.color {
+    color: red;
+}
+h4 {
+    color: white;
+}
+
+span {
+    margin-left: 145px;  
+}
+button {
+    margin-top: 10px;
+
+}
+
+p {
+    width: 480px;
+    padding: 5px;
+} 
+#div2 {
+    text-align: center;
+    
+}
+#inc {
+    background-color:#1cb043;
+}
+
+#dec {
+    background-color: #c7c1c1;
+}
+#div3  {
+    text-align: center;
+    padding: 20px;
+}
+
+#div4  {
+    text-align: center;
+    padding: 20px;
+}

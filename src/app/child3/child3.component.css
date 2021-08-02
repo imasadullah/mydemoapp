@@ -1,0 +1,26 @@
+
+table {
+    margin-left: 570px;
+    text-align: center;
+    background-color: teal;
+    color: white;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+  th {
+      text-align: center;
+      
+  }
+#del {
+        background-color: red;
+        color: white;
+
+    }
+#edit {
+
+    background-color: orange;
+    color: white;
+
+    }
+    
